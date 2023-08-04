@@ -1,0 +1,41 @@
+.advantages {
+  padding-top: 150px;
+
+  &__list {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+
+  &__item {
+    display: flex;
+    align-items: center;
+    width: 50%;
+
+    &__number {
+      font: $h1-font;
+      color: $gray-color;
+      padding-right: 30px;
+    }
+    &__description {
+      font: $h3-font;
+    }
+  }
+}
+
+@media (max-width: 1023px) {
+  .advantages {
+    &__list {
+      flex-direction: column;
+      width: 100%;
+    }
+
+    &__item {
+      justify-content: space-around;
+      width: 100%;
+      &__number {
+        padding-right: 10px;
+      }
+    }
+  }
+}

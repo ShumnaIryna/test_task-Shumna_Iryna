@@ -1,0 +1,139 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font: $main-font;
+  color: $primary-color;
+  background-color: $background-white;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+}
+
+ul,
+ol {
+  margin: 0;
+  padding: 0;
+}
+
+ul,
+li {
+  list-style: none;
+}
+
+button {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  transition: all 0.3s;
+  color: $primary-color;
+}
+
+.container {
+  max-width: 1440px;
+  margin: 0 auto;
+}
+
+.content {
+  padding: 0 135px;
+}
+
+.line-orange {
+  border-top: 5px solid orange;
+}
+
+.title {
+  font: $h2-font-light;
+  color: $title-color;
+}
+
+.btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 220px;
+  height: 70px;
+  padding: 10px;
+  border: none;
+  background-color: #ffffff;
+}
+
+.ps-rel {
+  position: relative;
+}
+
+.ps-abs {
+  position: absolute;
+}
+
+.btn-transparent {
+  max-height: 24px;
+  width: 130px;
+  justify-content: start;
+  font: $h9-font;
+  color: $white-color;
+  background-color: transparent;
+
+  a {
+    color: $white-color;
+  }
+}
+.btn.btn-home {
+  left: 0px;
+  bottom: 2px;
+}
+.btn-next {
+  width: 50px;
+  height: 53px;
+  margin-right: 20px;
+  border: 1px solid $gray-color;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  background-color: #ffffff;
+}
+
+.btn-next:hover {
+  background-color: $gray-color !important;
+}
+
+.btn.btn-dark {
+  background-color: $background-gray;
+  color: $white-color;
+  font: $main-font;
+}
+
+.btn:hover {
+  background: linear-gradient(#bab0bc, #3cf1c0);
+  border-radius: 5px;
+  transition: all 0.6s;
+  cursor: pointer;
+}
+
+.col-red {
+  color: $red-color;
+}
+
+.check {
+  display: block;
+  width: 24px;
+  height: 24px;
+  color: $primary-color;
+  left: 0;
+  bottom: 70px;
+}

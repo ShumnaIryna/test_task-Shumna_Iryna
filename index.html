@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="./fonts/fontawesome/css/all.min.css" rel="stylesheet" />
+    <link rel="stylesheet" href="./styles/style.css" />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./img/logo-dark.png" />
+    <title>test</title>
+  </head>
+
+  <body>
+    <div class="container">
+      <header class="header content">
+        <a href="#" class="header__logo">
+          <img src="./img/logo-dark.png" alt="foto-logo" />
+        </a>
+        <nav class="nav">
+          <ul class="nav__list">
+            <li class="nav__item ps-rel">
+              <a href="#" class="nav__link">ГЛАВНАЯ</a>
+            </li>
+            <li class="nav__item ps-rel">
+              <a href="#" class="nav__link">ГАЛЕРЕЯ</a>
+            </li>
+            <li class="nav__item ps-rel">
+              <a href="#" class="nav__link">ПРОЕКТЫ</a>
+            </li>
+            <li class="nav__item ps-rel">
+              <a href="#" class="nav__link">СЕРТИФИКАТЫ</a>
+            </li>
+            <li class="nav__item ps-rel">
+              <a href="#" class="nav__link">КОНТАКТЫ</a>
+            </li>
+          </ul>
+        </nav>
+      </header>
+
+      <div class="home content">
+        <div class="home__left">
+          <h2 class="home__title1">PROJECT</h2>
+          <h2 class="home__title2">HOME</h2>
+          <div class="home__arrows">
+            <button class="btn-next">
+              <i class="icon icon--left icon--black"></i>
+            </button>
+            <button class="btn-next">
+              <i class="icon icon--right icon--black"></i>
+            </button>
+          </div>
+          <div class="home__page">
+            <a href="#" class="home__page__title">01</a>
+            <span class="home__page__slash">/</span>
+            <a href="#" class="home__page__title">02</a>
+          </div>
+        </div>
+        <div class="home__right ps-rel">
+          <img src="./img/home.png" alt="foto-home" />
+          <button class="btn btn-home ps-abs">
+            ВЗГЛЯНУТЬ
+            <i class="icon icon--right icon--black"></i>
+          </button>
+        </div>
+      </div>
+
+      <div class="line-orange"></div>
+
+      <main class="content">
+        <section class="about">
+          <div class="about__photo ps-rel">
+            <img
+              class="about__photo__img1"
+              src="./img/company photo1.png"
+              alt="company photo" />
+            <img
+              class="about__photo__img2"
+              src="./img/company photo2.png"
+              alt="company photo" />
+            <img
+              class="about__photo__img3 ps-abs"
+              src="./img/company photo3.png"
+              alt="company photo" />
+          </div>
+
+          <div class="about__info">
+            <h2 class="title">О компании</h2>
+            <p class="about__info__text">
+              Lorem Ipsum is simply dummy text of the printing and typesetting
+              industry. Lorem Ipsum has been the industry's standard dummy text
+              ever since the 1500s, when an unknown printer took a galley of
+              type and scrambled it to make a type specimen book. It has
+              survived not only five centuries, but also the leap into
+              electronic typesetting, remaining essentially unchanged.
+            </p>
+            <button class="btn">
+              ЧИТАТЬ
+              <i class="icon icon--right icon--black"></i>
+            </button>
+          </div>
+        </section>
+
+        <section class="advantages">
+          <h2 class="title">Основные задачи</h2>
+          <div class="advantages__list">
+            <div class="advantages__item">
+              <p class="advantages__item__number">1</p>
+              <p class="advantages__item__description">
+                Создание комфортных условий и повышение качества обслуживания
+                клиентов
+              </p>
+            </div>
+            <div class="advantages__item">
+              <p class="advantages__item__number">2</p>
+              <p class="advantages__item__description">
+                Постоянно совершенствовать качество предоставляемых услуг путем
+                обучения персонала, закупки нового оборудования и усиленной
+                рекламы на рынке
+              </p>
+            </div>
+          </div>
+        </section>
+
+        <section class="project">
+          <h2 class="project__padding title">Наши проекты</h2>
+
+          <div class="project__gallery">
+            <div class="project__gallery__first">
+              <h2 class="project__title">ДОСУГОВЫЙ ЦЕНТР</h2>
+              <button class="btn btn-transparent">
+                ПОДРОБНЕЕ
+                <i class="icon icon--right"></i>
+              </button>
+            </div>
+            <div class="project__gallery__second">
+              <img src="./img/gallery photo2.png" alt="gallery photo" />
+            </div>
+          </div>
+
+          <div class="project__gallery">
+            <div class="project__gallery__lower1">
+              <img
+                class="project__gallery__img3"
+                src="./img/gallery photo3.png"
+                alt="gallery photo" />
+            </div>
+            <div class="project__gallery__lower2">
+              <img
+                class="project__gallery__img4"
+                src="./img/gallery photo4.png"
+                alt="gallery photo" />
+            </div>
+            <div class="project__gallery__lower3">
+              <img
+                class="project__gallery__img5"
+                src="./img/gallery photo5.png"
+                alt="gallery photo" />
+            </div>
+          </div>
+
+          <div class="project__btn">
+            <button class="btn btn-dark">
+              ВСЕ ПРОЕКТЫ
+              <i class="icon icon--right"></i>
+            </button>
+          </div>
+        </section>
+
+        <section class="connect">
+          <h2 class="connect__padding title">Связаться с нами</h2>
+
+          <div class="connect__info">
+            <div class="connect__form">
+              <div class="connect__form__item">
+                <span>Имя</span>
+              </div>
+              <div class="connect__form__item">
+                <span>Номер телефона<span class="col-red">*</span></span>
+              </div>
+              <div class="connect__form__item">
+                <span>E-mail<span class="col-red">*</span></span>
+              </div>
+              <div class="connect__form__item">
+                <span>Интересующий товар/услуга</span>
+              </div>
+              <div class="connect__form__item hight150 ps-rel">
+                <span>Сообщение<span class="col-red">*</span></span>
+                <i class="icon icon--check ps-abs"></i>
+              </div>
+            </div>
+            <div class="connect__img">
+              <img class="" src="./img/connect foto.png" alt="connect photo" />
+            </div>
+          </div>
+
+          <p class="connect__text">
+            Отправляя заявку Вы соглашаетесь с политикой конфиденциальности
+          </p>
+          <div class="connect__btn">
+            <button class="btn btn-dark">
+              ОТПРАВИТЬ
+              <i class="icon icon--right"></i>
+            </button>
+          </div>
+        </section>
+      </main>
+
+      <footer class="footer">
+        <div class="content">
+          <div class="footer__core">
+            <a href="#" class="footer__logo">
+              <img src="./img/logo-white.png" alt="foto-logo" />
+            </a>
+            <nav class="footer__nav">
+              <p class="footer__nav__title">Информация</p>
+              <ul>
+                <li class="footer__nav__item">
+                  <a href="#">Главная</a>
+                </li>
+                <li class="footer__nav__item">
+                  <a href="#">Галерея</a>
+                </li>
+                <li class="footer__nav__item">
+                  <a href="#">Проекты</a>
+                </li>
+                <li class="footer__nav__item">
+                  <a href="#">Сертификаты</a>
+                </li>
+                <li class="footer__nav__item">
+                  <a href="#">Контакты</a>
+                </li>
+              </ul>
+            </nav>
+
+            <nav class="footer__nav">
+              <p class="footer__nav__title">Контакты</p>
+              <ul>
+                <li class="footer__nav__item">
+                  <a href="#">
+                    <i class="icon icon--pin"></i>
+                    100000, Республика Казахстан, г. Караганда, ул.
+                    Телевизионная 10</a
+                  >
+                </li>
+                <li class="footer__nav__item">
+                  <a href="#">
+                    <i class="icon icon--phone"></i>
+                    +38 (000) 000 00 00</a
+                  >
+                </li>
+                <li class="footer__nav__item">
+                  <a href="#">
+                    <i class="icon icon--mail"></i>
+                    mail@gmail.com
+                  </a>
+                </li>
+              </ul>
+            </nav>
+
+            <nav class="footer__nav">
+              <p class="footer__nav__title">Социальные сети</p>
+              <ul class="footer__nav__social">
+                <li>
+                  <a href="#">
+                    <i class="icon icon--facebook"></i>
+                  </a>
+                </li>
+                <li>
+                  <a href="#">
+                    <i class="icon icon--twitter"></i>
+                  </a>
+                </li>
+                <li>
+                  <a href="#">
+                    <i class="icon icon--linkedin"></i>
+                  </a>
+                </li>
+                <li>
+                  <a href="#">
+                    <i class="icon icon--pinterest"></i>
+                  </a>
+                </li>
+              </ul>
+            </nav>
+          </div>
+        </div>
+
+        <div class="footer__info">
+          © 2019 Digital Project. Все права защищены.
+        </div>
+      </footer>
+
+      <!-- close container -->
+    </div>
+  </body>
+</html>
