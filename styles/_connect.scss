@@ -18,8 +18,11 @@
     display: flex;
     flex-direction: column;
 
-    &__item {
+    &__item,
+    &__item:focus {
       margin-bottom: 10px;
+      border: 0;
+      outline: 0;
       font: $h7-font;
       color: $form-color;
       padding: 10px 20px;
